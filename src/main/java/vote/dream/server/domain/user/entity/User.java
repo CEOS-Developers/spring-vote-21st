@@ -32,7 +32,10 @@ public class User {
     private String username;
 
     @NotNull
+    @Enumerated(EnumType.STRING)
     private Team team;
 
+    @NotNull
+    @Enumerated(EnumType.STRING)
     private Part part;
 }
